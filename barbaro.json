@@ -1,0 +1,151 @@
+{ "classes" : {
+		"Bárbaro" : {
+			"dadoDeVida": "D12 + Mod. de Mod. Constituição",
+			"profArmas": "Simples e Marciais",
+			"profArmaduras": "Leves e Médias",
+			"ferramentas": "Nenhuma",
+			"profResistencia": "Mod. Constituição e Força",
+			"pericias": "Duas entre Adestrar Animais, Atletismo, Intimidar, Natureza, Percepção, Sobrevivência.",
+			"level": {
+				"1" : {
+					"recursos": "Duas fúrias por descanso longo, +2 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura",
+					"altera_atributo": "Você não tem alterações de atributo",
+					"proficiencia": "+2 de bônus de proficiência",
+					"hp": "1d12 + Mod. Constituição"
+				},
+				"2" : {
+					"recursos": "Duas fúrias por descanso longo, +2 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo",
+					"altera_atributo": "Você não tem alterações de atributo",
+					"proficiencia": "+2 de bônus de proficiência",
+					"hp": "2d12 + Mod. Constituição"
+				},
+				"3" : {
+					"recursos": "Três fúrias por descanso longo, +2 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo",
+					"altera_atributo": "Você não tem alterações de atributo",
+					"proficiencia": "+2 de bônus de proficiência",
+					"hp": "3d12 + Mod. Constituição"
+				},
+				"4" : {
+					"recursos": "Três fúrias por descanso longo, +2 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo",
+					"altera_atributo": "Você tem 1 alteração de atributo",
+					"proficiencia": "+2 de bônus de proficiência",
+					"hp": "4d12 + Mod. Constituição"
+				},
+				"5" : {
+					"recursos": "Três fúrias por descanso longo, +2 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido",
+					"altera_atributo": "Você tem 1 alteração de atributo e 1 Ataque Extra",
+					"proficiencia": "+3 de bônus de proficiência",
+					"hp": "5d12 + Mod. Constituição"
+				},
+				"6" : {
+					"recursos": "Quatro fúrias por descanso longo, +2 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6",
+					"altera_atributo": "Você tem 1 alteração de atributo e 1 Ataque Extra",
+					"proficiencia": "+3 de bônus de proficiência",
+					"hp": "6d12 + Mod. Constituição"
+				},
+				"7" : {
+					"recursos": "Quatro fúrias por descanso longo, +2 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6, Instinto Selvagem, Bote Instintivo",
+					"altera_atributo": "Você tem 1 alteração de atributo e 1 Ataque Extra",
+					"proficiencia": "+3 de bônus de proficiência",
+					"hp": "7d12 + Mod. Constituição"
+				},
+				"8" : {
+					"recursos": "Quatro fúrias por descanso longo, +2 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6, Instinto Selvagem, Bote Instintivo",
+					"altera_atributo": "Você tem 2 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+3 de bônus de proficiência",
+					"hp": "8d12 + Mod. Constituição"
+				},
+				"9" : {
+					"recursos": "Quatro fúrias por descanso longo, +3 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6, Instinto Selvagem, Bote Instintivo, Crítico Brutal (1 dado)",
+					"altera_atributo": "Você tem 2 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+4 de bônus de proficiência",
+					"hp": "9d12 + Mod. Constituição"
+				},
+				"10" : {
+					"recursos": "Quatro fúrias por descanso longo, +3 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6 e 10, Instinto Selvagem, Bote Instintivo, Crítico Brutal (1 dado)",
+					"altera_atributo": "Você tem 2 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+4 de bônus de proficiência",
+					"hp": "10d12 + Mod. Constituição"
+				},
+				"11" : {
+					"recursos": "Quatro fúrias por descanso longo, +3 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6 e 10, Instinto Selvagem, Bote Instintivo, Crítico Brutal (1 dado), Fúria Implacável",
+					"altera_atributo": "Você tem 2 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+4 de bônus de proficiência",
+					"hp": "11d12 + Mod. Constituição"
+				},
+				"12" : {
+					"recursos": "Cinco fúrias por descanso longo, +3 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6 e 10, Instinto Selvagem, Bote Instintivo, Crítico Brutal (1 dado), Fúria Implacável",
+					"altera_atributo": "Você tem 3 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+4 de bônus de proficiência",
+					"hp": "12d12 + Mod. Constituição"
+				},
+				"13" : {
+					"recursos": "Cinco fúrias por descanso longo, +3 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6 e 10, Instinto Selvagem, Bote Instintivo, Crítico Brutal (2 dados), Fúria Implacável",
+					"altera_atributo": "Você tem 3 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+5 de bônus de proficiência",
+					"hp": "13d12 + Mod. Constituição"
+				},
+				"14" : {
+					"recursos": "Cinco fúrias por descanso longo, +3 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6, 10 e 14, Instinto Selvagem, Bote Instintivo, Crítico Brutal (2 dados), Fúria Implacável",
+					"altera_atributo": "Você tem 3 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+5 de bônus de proficiência",
+					"hp": "14d12 + Mod. Constituição"
+				},
+				"15" : {
+					"recursos": "Cinco fúrias por descanso longo, +3 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6, 10 e 14, Instinto Selvagem, Bote Instintivo, Crítico Brutal (2 dados), Fúria Implacável, Fúria Persistente",
+					"altera_atributo": "Você tem 3 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+5 de bônus de proficiência",
+					"hp": "15d12 + Mod. Constituição"
+				},
+				"16" : {
+					"recursos": "Cinco fúrias por descanso longo, +4 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6, 10 e 14, Instinto Selvagem, Bote Instintivo, Crítico Brutal (2 dados), Fúria Implacável, Fúria Persistente",
+					"altera_atributo": "Você tem 4 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+5 de bônus de proficiência",
+					"hp": "16d12 + Mod. Constituição"
+				},
+				"17" : {
+					"recursos": "Seis fúrias por descanso longo, +4 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6, 10 e 14, Instinto Selvagem, Bote Instintivo, Crítico Brutal (3 dados), Fúria Implacável, Fúria Persistente",
+					"altera_atributo": "Você tem 4 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+6 de bônus de proficiência",
+					"hp": "17d12 + Mod. Constituição"
+				},
+				"18" : {
+					"recursos": "Seis fúrias por descanso longo, +4 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6, 10 e 14, Instinto Selvagem, Bote Instintivo, Crítico Brutal (3 dados), Fúria Implacável, Fúria Persistente, Força Indomável",
+					"altera_atributo": "Você tem 4 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+6 de bônus de proficiência",
+					"hp": "18d12 + Mod. Constituição"
+				},
+				"19" : {
+					"recursos": "Seis fúrias por descanso longo, +4 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6, 10 e 14, Instinto Selvagem, Bote Instintivo, Crítico Brutal (3 dados), Fúria Implacável, Fúria Persistente, Força Indomável",
+					"altera_atributo": "Você tem 5 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+6 de bônus de proficiência",
+					"hp": "19d12 + Mod. Constituição"
+				},
+				"20" : {
+					"recursos": "Fúrias Ilimitadas, +4 no dano enquanto em fúria",
+					"leia": "Defesa sem armadura, Ataque Descuidado, Sentido de Perigo, Caminho Primitivo, Movimento Rápido, Característica do Caminho Primitivo do Nível 6, 10 e 14, Instinto Selvagem, Bote Instintivo, Crítico Brutal (3 dados), Fúria Implacável, Fúria Persistente, Força Indomável, Campeão Primitivo",
+					"altera_atributo": "Você tem 5 alterações de atributo e 1 Ataque Extra",
+					"proficiencia": "+6 de bônus de proficiência",
+					"hp": "20d12 + Mod. Constituição"
+				}
+			}}
+		}}
